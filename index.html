@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="./main.css">
+    <title>Portfolio</title>
+</head>
+
+<body>
+        
+    <!-- Nav Bar -->
+    <nav class="navbar fix-top navbar-expand-lg navbar-light bg-dark" >
+        <a class="navbar-brand" href="#"><img src="./assets/LG.png" width="30" height="30" class="d-inline-block align-top" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div  class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About Me</a>
+            </li>
+             <li class="nav-item">
+              <a class="nav-link" href="#portfolio">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+
+          </ul>
+        </div>
+      </nav>
+  </nav>
+
+  <!-- Header: To display : Background Image, Full Name, Quick Info, eg. Web developer! -->
+<header>
+        <div class="jumbotron" style="text-align: center">
+            <h1 class="display-4" >Mohamed Hussein</h1>
+            <p class="lead">I am Software, Web Developer & Electronic Designer!</p>
+            <hr class="my-4">
+            <p>Would you like to know more about me? Please hit below botton.</p>
+            <a class="btn btn-primary btn-lg" href="#about" role="button">About Me!</a>
+        </div>
+</header>
+
+<!-- About Me: Paragraph and picture, Education, Skills, Experience, may be interests -->
+<section  style="background-color:darkslategray; margin: 0; padding: 0" id="about">
+       <!-- Paragraph & img-->
+       <img style="border-radius: 500px; padding: 10px; margin: 10px; background-color: lawngreen"  src="./assets/mh.jpg" alt="active" class="img-thumbnail">
+       
+       <p class="text-light" >Mr. Hussein has Bachelor of Computer Engineering. He worked in many profit and nonprofit organizations. He became a member of Professional, Engineering, Leadership, Teamwork, and Awareness Camp, PELTAC, and worked in welfare department.
+
+        2011 He worked as Secretary of International Student Society, at UTM, and then he became the President of UTM International Student Society.
+        
+        2013 He worked at Foxconn Indiana as Supplier Quality Engineer. 2014 He became IT assistant and Computer Teacher at MTI School of Knowledge.
+        
+        Mr. Hussein is the founder and director of both Smart Teaching Institute, STI (online learning system), and RElSoft Technology Solution.</p>
+        <!--Skills-->
+        <div >  
+          <hr class="my-4">  <!-- To Give Space -->
+          <h1 class="text-light" class="display-4" >Skills</h1>
+
+          <div class="w-25 p-3" style="background-color: #eee;">HTML, 2 Years </div>
+          <div class="w-25 p-3" style="background-color: #ec5800;">CSS, 2 Years</div>
+          <div class="w-50 p-3" style="background-color: #eee;">Dot Net, 5 Years </div>
+        </div>
+
+        <!--Work History-->
+        <div >  
+            <hr class="my-4">  <!-- To Give Space -->
+            <h1 class="text-light" class="display-4" > Work History </h1>
+            <ul> 
+            <li>From To 1</li>
+            <li>From To 2</li>   
+            <li>From To 3</li>   
+            <li>From To 4</li>   
+            <li>From To 5</li>   
+            </ul>
+        </div>
+
+        <!--Education-->
+        <div >  
+            <hr class="my-4">  <!-- To Give Space -->
+            <h1 class="text-light" class="display-4" > Education </h1>
+            <ul> 
+            <li>From To 1 & What</li>
+            <li>From To 2 & What</li>   
+            <li>From To 3 & What</li>   
+            <li>From To 4 & What</li>   
+            <li>From To 5 & What</li>   
+            </ul>
+        </div>
+
+</section>
+
+<!-- Projects or Portfolio-->
+<section style="background-color:darkslategray; margin: 0; padding: 0" id="portfolio"> 
+  <h1 style="text-align: center; color: white">Projects</h1>
+
+  <img src="./assets/P01.jpg" class="rounded mx-auto d-block" alt=" " class="img">
+</section>
+
+<!-- Contact section -->
+<section> 
+  <section id="contact">
+    <div class="container">
+      <h2 class="text-center text-uppercase">Contact Me</h2>
+      <div class="row">
+        <div class="col-12">
+          <form action="https://formspree.io/mkhadarcourses@gmail.com" method="POST">
+            <div class="control-group">
+              <div class="form-group">
+                <label>Name</label>
+                <input 
+                  type="text" 
+                  class="form-control" 
+                  placeholder="Your Name" 
+                  id="name" 
+                  required 
+                  data-validation-required-message="Please enter your name"
+                  name="name"
+                  >
+                <p class="help-block text-danger"></p>
+              </div>
+            </div>
+            <div class="control-group">
+              <div class="form-group">
+                <label>Email Address</label>
+                <input 
+                  type="email" 
+                  class="form-control" 
+                  placeholder="Your Email" 
+                  id="email" 
+                  required 
+                  data-validation-required-message="Please enter your email"
+                  name="_replyto"
+                >
+                <p class="help-block text-danger"></p>
+              </div>
+            </div>
+            <div class="control-group">
+              <div class="form-group">
+                <textarea 
+                  class="form-control" 
+                  rows="7" 
+                  placeholder="Your Message" 
+                  id="message" 
+                  required 
+                  data-validation-required-message="Please leave a message"
+                  name="message"
+                ></textarea>
+                <p class="help-block text-danger"></p>
+              </div>
+            </div>
+            <div class="text-center">
+              <div id="success"></div>
+              <!-- <button type="submit" class="btn btn-lg btn-black"> -->
+              <button type="submit" class="btn btn-outline-primary">
+                <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+                Send Message
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+</section>
+
+<!-- Below is the required jQuery code and js -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+<!-- Above code is the jQuery and js -->
+</body>
+
+<footer style="text-align: center; padding: 5px; margin: 0; text-justify:auto; padding-bottom: 50px"> Footer Section </footer>
+</html>
