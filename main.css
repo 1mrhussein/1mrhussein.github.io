@@ -1,6 +1,4 @@
-html,
-body,
-header{
+body{
     /* height: 100%; */
     background: darkcyan;
    
@@ -8,7 +6,11 @@ header{
 
 .portfolio{
     vertical-align: middle;
-    
+    text-align: center;
+    background-color: black;
+    padding: 200px;
+    width: 100vw;
+    height: 200px;
 }
 
 .center{
@@ -26,7 +28,20 @@ padding: 100px;
     align-content: center;
 }
 
-.img img{
-width: 100%;
-height: 20px;
+.social{
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    }
+.aboutText
+{
+    margin-top: 15em, 0, 0, 0;
+    width: 80%;
+    color:green;
+    float: right;
+    position: relative;
 }
+

@@ -8,9 +8,7 @@
     <link rel="stylesheet" type="text/css" href="./main.css">
     <title>Portfolio</title>
 </head>
-
 <body>
-        
     <!-- Nav Bar -->
     <nav class="navbar fix-top navbar-expand-lg navbar-light bg-dark" >
         <a class="navbar-brand" href="#"><img src="./assets/LG.png" width="30" height="30" class="d-inline-block align-top" alt="">
@@ -34,7 +32,6 @@
             <li class="nav-item">
               <a class="nav-link" href="#contact">Contact</a>
             </li>
-
           </ul>
         </div>
       </nav>
@@ -42,7 +39,7 @@
 
   <!-- Header: To display : Background Image, Full Name, Quick Info, eg. Web developer! -->
 <header>
-        <div class="jumbotron" style="text-align: center">
+        <div class="jumbotron" style="text-align: center; margin-bottom: 0px">
             <h1 class="display-4" >Mohamed Hussein</h1>
             <p class="lead">I am Software, Web Developer & Electronic Designer!</p>
             <hr class="my-4">
@@ -52,25 +49,28 @@
 </header>
 
 <!-- About Me: Paragraph and picture, Education, Skills, Experience, may be interests -->
-<section  style="background-color:darkslategray; margin: 0; padding: 0" id="about">
+<section  style="background-color:darkslategray;margin-bottom: 0px; padding: 5%px" id="about">
        <!-- Paragraph & img-->
        <img style="border-radius: 500px; padding: 10px; margin: 10px; background-color: lawngreen"  src="./assets/mh.jpg" alt="active" class="img-thumbnail">
        
-       <p class="text-light" >Mr. Hussein has Bachelor of Computer Engineering. He worked in many profit and nonprofit organizations. He became a member of Professional, Engineering, Leadership, Teamwork, and Awareness Camp, PELTAC, and worked in welfare department.
+       <p class="aboutText" style="color: white;margin-top:50px; margin-right: 20px; text-align: justify"  >I have Bachelor of Computer Engineering. I worked in many profit and nonprofit organizations. I became a member of Professional, Engineering, Leadership, Teamwork, and Awareness Camp, PELTAC, and worked in welfare department.
 
-        2011 He worked as Secretary of International Student Society, at UTM, and then he became the President of UTM International Student Society.
+        2011 I worked as Secretary of International Student Society, at UTM, and then he became the President of UTM International Student Society of one of the country chapters.
         
-        2013 He worked at Foxconn Indiana as Supplier Quality Engineer. 2014 He became IT assistant and Computer Teacher at MTI School of Knowledge.
+        2014 I worked at Foxconn Indiana as Supplier Quality Engineer. 2014 I became IT assistant and Computer Teacher at MTI School of Knowledge.
         
-        Mr. Hussein is the founder and director of both Smart Teaching Institute, STI (online learning system), and RElSoft Technology Solution.</p>
+        I am the founder and director of both Smart Teaching Institute, STI (online learning system), and RElSoft Technology Solution (CMS web developer company).</p>
         <!--Skills-->
         <div >  
           <hr class="my-4">  <!-- To Give Space -->
           <h1 class="text-light" class="display-4" >Skills</h1>
 
-          <div class="w-25 p-3" style="background-color: #eee;">HTML, 2 Years </div>
-          <div class="w-25 p-3" style="background-color: #ec5800;">CSS, 2 Years</div>
-          <div class="w-50 p-3" style="background-color: #eee;">Dot Net, 5 Years </div>
+          <div class="row">
+          <div class="w-25 p-3 col-md-4 mb-3 mb-md-0" style="background-color: #eee;">HTML, 2 Years </div>
+          <div class="w-25 p-3 col-md-4 mb-3 mb-md-0" style="background-color: #ec5800;">CSS, 2 Years</div>
+          <div class="w-50 p-3 col-md-4 mb-3 mb-md-0" style="background-color: #eee;">Dot Net, 5 Years </div>
+          </div>
+
         </div>
 
         <!--Work History-->
@@ -98,15 +98,32 @@
             <li>From To 5 & What</li>   
             </ul>
         </div>
-
 </section>
 
 <!-- Projects or Portfolio-->
-<section style="background-color:darkslategray; margin: 0; padding: 0" id="portfolio"> 
-  <h1 style="text-align: center; color: white">Projects</h1>
-
-  <img src="./assets/P01.jpg" class="rounded mx-auto d-block" alt=" " class="img">
-</section>
+<section class="portfolio" style="background-color:#0D324F; margin-bottom: 0px; padding: 0" id="portfolio"> 
+  <div>
+    <h1 style="text-align: center; color: white">Projects</h1>
+    <p style="color:white">What is Lorem Ipsum?
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+        <hr>
+        
+        <img src="./assets/P01.jpg" width="300" height="300" class="d-inline-block align-top" class="rounded mx-auto d-block" alt=" ">
+        <div>
+            <img src="./assets/P01.jpg" width="300" height="300" class="d-inline-block align-top" class="rounded mx-auto d-block" alt=" ">
+            
+            <img src="./assets/P01.jpg" width="300" height="300" class="d-inline-block align-top" class="rounded mx-auto d-block" alt=" ">
+            
+            <img src="./assets/P01.jpg" width="300" height="300" class="d-inline-block align-top" class="rounded mx-auto d-block" alt=" ">
+            
+            <img src="./assets/P01.jpg" width="300" height="300" class="d-inline-block align-top" class="rounded mx-auto d-block" alt=" ">
+        </div>
+  </div>
+        </section>
+        <hr>
+<!---->
+ 
+<!---->
 
 <!-- Contact section -->
 <section> 
@@ -182,5 +199,11 @@
 <!-- Above code is the jQuery and js -->
 </body>
 
-<footer style="text-align: center; padding: 5px; margin: 0; text-justify:auto; padding-bottom: 50px"> Footer Section </footer>
+<hr class="my-4">  <!-- To Give Space -->
+    <ul class="social-icons" style="list-style-type: none">
+        <li><a href="http://www.facebook.com"><img src=" " /></a></li>
+        <li><a href="http://www.twitter.com"><img src=" " /></a></li>
+        <li><a href="http://www.youtube.com"><img src=" "/></a></li>
+    </ul>
+</footer>
 </html>
