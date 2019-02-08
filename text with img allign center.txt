@@ -1,0 +1,4 @@
+<div style="text-align:center;">
+    <div style="border:1px solid #000; display:inline-block;">Div 1</div>
+    <div style="border:1px solid red; display:inline-block;">Div 2</div>
+</div> 

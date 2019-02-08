@@ -1,3 +1,7 @@
+spining
+https://www.w3schools.com/icons/fontawesome_icons_intro.asp
+
+
  <!-- Contact Section -->
   <section class="contact-section bg-black">
     <div class="container">

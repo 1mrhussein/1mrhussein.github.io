@@ -10,7 +10,7 @@ body{
     background-color: black;
     padding: 200px;
     width: 100vw;
-    height: 200px;
+    /* height: 200px; */
 }
 
 .center{
@@ -22,8 +22,8 @@ padding: 100px;
 
 }
 
-.footer{
-    top: 5%;
+#footer{
+    top: 0%;
     bottom: 10px;
     align-content: center;
 }
